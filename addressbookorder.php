@@ -6,7 +6,7 @@ if (!$db) {
     echo 'Error: Could not connect to database. Please try again later.';
     exit;
 }
-
+//d($_GET);
 mysql_select_db('addressbook');
 
 function updateRow($array, $id) {
